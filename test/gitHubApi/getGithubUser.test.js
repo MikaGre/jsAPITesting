@@ -1,4 +1,4 @@
-const GitApi = require("../src/apiLayer");
+const GitApi = require("../../src/gitHubApiLayer");
 const { expect } = require("chai");
 
 describe("GET - Github User profile information", () => {
